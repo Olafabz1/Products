@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/3a3e96a8e3.js" crossorigin="anonymous"></script>
+  <style>
+body{
+  background-color:rgb(231, 201, 231) ;
+}
+    .upper {
+      display: flex;
+      margin-top: 90px;
+      margin-left: 6%;
+      < !--i divived the main in two section,
+      this is the first section,
+      i divided the first section into two divs,
+      one div contains the heading and paragraph and i gave it a class called "firstdiv"
+      the second divs contains three divs that has the stars icons inside and i gave it a class called "secondivs" -->
+    }
+
+    .firstdiv {
+      margin-left: 70px;
+      margin-top: 50px 50%;
+      < !--this is the first div that has the heading and paragraph,
+      i pushed it to the right by giving it margin-left-->
+    }
+
+    .secondiv {
+      margin-top: 5%;
+      margin-left:20%;
+      < !--this is the second div that has the three divs with the star icons and the sentences-->
+    }
+
+    #firstStar {
+      width: 100%;
+      height: 10%;
+      border-radius: 4px;
+      background-color: rgb(128, 0, 128, 0.1);
+      padding: 4%;
+      < !--this is the first div with the first stars icons with the sentence"rated 5 stars in review"
+      i gave it an id because i used put them inside a span tag each-->
+    }
+
+    #second {
+      width: 100%;
+      height: 10%;
+      margin-left: 30px;
+      margin-top: 3%;
+      padding: 4%;
+      border-radius: 4px;
+      background-color: rgb(128, 0, 128, 0.1);
+      < !--this is the second div with the stars icons and the sentence-->
+    }
+
+    #third {
+      width: 100%;
+      margin-left: 50px;
+      margin-top: 3%;
+      background-color: rgb(128, 0, 128, 0.1);
+      border-radius: 4px;
+      padding: 4%;
+      height: 10%;
+      < !--this is the third div with the star icons and the sentence-->
+    }
+
+    .fa-star {
+      color: gold;
+      font-size: small;
+      < !--this is the icons class,
+      i changed the size and color-->
+    }
+
+    .rated {
+      margin-left: 10px;
+      color: purple;
+      font-size: smaller;
+      font-weight: bold;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif < !--this is the sentences after the icons i gave them a class so i can style them-->
+    }
+
+    h1 {
+      font-size: xx-large;
+      color: purple;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bolder;
+      < !--this is the heading "10,00+ users love our service" -->
+    }
+
+    p {
+      color: rgb(128, 0, 128, 0.6);
+      < !--this is the paragraph-->
+    }
+    .name{
+      display: block;
+      color:rgb(187, 116, 187);
+    }
+    .buyer{
+      margin-left:120px;
+    }
+    .firstlower{
+      border:1px solid purple ;
+      width:30%;
+       background-color:purple ;
+       border-radius:10px ;
+    }
+
+     .secondlower{
+      border:1px solid purple ;
+       width:30%;
+       margin-left:30px ;
+       margin-top:30px ;
+     background-color:purple ;
+     border-radius:10px ;
+    }
+     .thirdlower{
+      border:1px solid purple ;
+       width:30%;
+       margin-left:40px ;
+     background-color:purple ;
+     border-radius:10px ;
+      margin-top:50px ;
+     }
+
+    .info{
+  display: flex;
+  margin-left:130px;
+  margin-top:40px;
+ 
+}
+img{
+  margin-left:20px ;
+  margin-top:10px ;
+  border-radius:50%;
+}
+
+.enquiry{
+  color:white;
+  margin-left:15px ;
+}
+.buyer{
+  color: white;
+}
+
+  
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="upper">
+      <div class="firstdiv">
+        <h1>
+          10,000+ of our<br> users love our <br>products.</h1>
+        <p>we only provide great product combined with excellent<br> customers service.See what
+          our satisfied customers are <br>saying about our service
+        </p>
+      </div>
+      <div class="secondiv">
+        <div id="firstStar"><span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><span class="rated">Rated 5 Star in Review</span></span></div>
+        <div id="second"><span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><span class="rated">Rated 5 Stars in Report Guru</span></span></div>
+        <div id="third"><span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><span class="rated">Rated 5 Stars in BestTech</span></span></div>
+      </div>
+    </section>
+    <div class="info">
+    <div class="firstlower">
+      <img src="./images/image-colton.jpg" alt="colton"><div class="buyer">Colton Smith <span class="name">Verified Buyer</span></div>
+      <p class="enquiry">"We needed the same printed design as the one we had ordered a week prior.
+      Not only did they find the original order, but we also received it in time.
+      Excellent!"</p>
+      </div>
+      <div class="secondlower">
+      <img src="./images/image-irene.jpg" alt="irene"><div class="buyer">Irene Roberts <span class="name">Verified Buyer</span></div>
+      <p class="enquiry">"Customer service is always excellent and very quick turn around. Completely
+      delighted with the simplicity of the purchase and the speed of delivery."</p>
+      </div>
+      <div class="thirdlower">
+    <img src="./images/image-anne.jpg" alt="anne"><div class="buyer">Anne Wallace <span class="name">Verified Buyer</span></div>
+    <p class="enquiry">"Put an order with this company and can only praise them for the very high
+    standard. Will definitely use them again and recommend them to everyone!"</p>
+    </div>
+    </div>
+  </main>
+</body>
+
+</html>

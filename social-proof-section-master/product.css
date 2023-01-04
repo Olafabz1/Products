@@ -1,0 +1,85 @@
+body {
+   background-color: rgb(239, 236, 237);
+   margin-top: 80px;
+   text-align: center;
+}
+
+h1 {
+   color: rgb(121, 23, 95);
+   font-size: 50px;
+   font-weight: 800;
+}
+
+.content {
+   display: flex;
+   margin-right: 80px;
+}
+
+.container {
+   text-align: center;
+}
+
+.fa-star {
+   color: rgb(226, 179, 92);
+   width: 2px;
+}
+
+.rate {
+   color: rgb(121, 23, 95);
+
+}
+
+img {
+   border-radius: 50%;
+}
+
+.colton {
+   border: 1px solid white;
+   border-radius: 10px;
+   background: rgb(121, 23, 95);
+   width: 350px;
+   height: 200px;
+   margin-top: 10px;
+
+}
+
+.irene {
+   border: 1px solid white;
+   border-radius: 10px;
+   background: rgb(121, 23, 95);
+   width: 350px;
+   height: 200px;
+   margin-top: 50px;
+   margin-left: 30px;
+
+}
+
+.anne {
+   border: 1px solid white;
+   border-radius: 10px;
+   background: rgb(121, 23, 95);
+   width: 350px;
+   height: 200px;
+   margin-top: 90px;
+   margin-left: 60px;
+
+}
+
+.author {
+   display: flex;
+}
+
+p {
+   color: rgb(121, 23, 95);
+   margin-right: 60px;
+}
+
+small {
+
+   margin-left: 134px;
+}
+
+.info {
+   color: white;
+   font-size: smaller;
+}
